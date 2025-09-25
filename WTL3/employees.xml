@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="employees.xsl"?>
+
+<employees xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:noNamespaceSchemaLocation="employees.xsd">
+    <employee id="E001">
+        <name>Jane Doe</name>
+        <department>Human Resources</department>
+        <position>Manager</position>
+        <salary>60000</salary>
+    </employee>
+    <employee id="E002">
+        <name>John Smith</name>
+        <department>IT</department>
+        <position>Software Engineer</position>
+        <salary>75000</salary>
+    </employee>
+    <employee id="E003">
+        <name>Alice Johnson</name>
+        <department>Finance</department>
+        <position>Analyst</position>
+        <salary>50000</salary>
+    </employee>
+</employees>
